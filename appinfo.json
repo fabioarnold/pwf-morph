@@ -1,0 +1,35 @@
+{
+	"uuid": "f41d8225-aba9-447d-bf36-0eafffd54b36",
+	"shortName": "Morph",
+	"longName": "Morph",
+	"companyName": "com.fabioware",
+	"versionLabel": "0.1",
+	"sdkVersion": "3",
+	"targetPlatforms": ["basalt"],
+	"enableMultiJS": true,
+	"watchapp": {
+		"watchface": true
+	},
+	"appKeys": {
+		"dummy": 0
+	},
+	"resources": {
+		"media": [
+			{
+				"type": "bitmap",
+				"name": "BATTERY",
+				"file": "images/battery.png"
+			},
+			{
+				"type": "bitmap",
+				"name": "BT_CONNECTED",
+				"file": "images/bt.png"
+			},
+			{
+				"type": "bitmap",
+				"name": "BT_DISCONNECTED",
+				"file": "images/bt_disconnected.png"
+			}
+		]
+	}
+}
